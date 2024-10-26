@@ -2,6 +2,8 @@
 
  Data types and arithmetic, comparison, and logical operators.
 
+
+
 ## Differences Between let, const, and var:
 
 | Feature                       | `let`                             | `const`                          | `var`                              |
@@ -11,6 +13,7 @@
 | **Hoisting**                  | Hoisted but not initialized       | Hoisted but not initialized      | Hoisted and initialized to `undefined` |
 | **Declaration Requirement**   | Can be declared without assigning | Must be assigned when declared   | Can be declared without assigning  |
 | **Redeclaration**             | Not allowed within the same scope | Not allowed within the same scope| Allowed within the same scope      |
+
 
 
 ## Table of Arithmetic, Comparison, and Logical Operators:
