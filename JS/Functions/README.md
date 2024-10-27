@@ -18,7 +18,7 @@ function greet(name) {
 }
 
 console.log(greet("Alice")); // Output: Hello, Alice!
-
+```
 ## 2. Function Expression
 A **function expression** involves defining a function inside an expression. It can be named or anonymous and is not hoisted, meaning it needs to be defined before it is called.
 - **Hoisted**:No, function expressions are not hoisted, so you must define them before use.
@@ -50,13 +50,13 @@ console.log(greet("Bob")); // Output: Hello, Bob!
   };
 
   console.log(greet("Charlie")); // Output: Hello, Charlie!
-```
+  ```
 
 - **Concise One-Liner Arrow Function:**
   ```javascript
   const greetShort = name => `Hello, ${name}!`;
   console.log(greetShort("David")); // Output: Hello, David!
-
+  ```
 
 - **Arrow Function Inheriting `this`:**
  ```javascript
