@@ -17,7 +17,7 @@ function greet(name) {
     return `Hello, ${name}!`;
 }
 
-console.log(greet("Alice")); // Output: Hello, Alice!```
+console.log(greet("Alice")); // Output: Hello, Alice!
 
 ## 2. Function Expression
 A **function expression** involves defining a function inside an expression. It can be named or anonymous and is not hoisted, meaning it needs to be defined before it is called.
@@ -56,7 +56,7 @@ console.log(greet("Bob")); // Output: Hello, Bob!
   ```javascript
   const greetShort = name => `Hello, ${name}!`;
   console.log(greetShort("David")); // Output: Hello, David!
-```
+
 
 - **Arrow Function Inheriting `this`:**
  ```javascript
@@ -118,6 +118,8 @@ testBlockScope();
 | **Use case**                      | General purpose                        | As a value, callback, or method      | Shorter functions, callbacks          |
 | **Arguments object**              | Yes                                    | Yes                                  | No                                    |
 | **Best for**                      | Traditional functions, hoisting        | Conditional function definitions     | Shorter syntax, preserving `this`     |
+
+---
 
 ## Additional Notes
 
