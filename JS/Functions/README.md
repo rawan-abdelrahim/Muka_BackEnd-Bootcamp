@@ -55,7 +55,7 @@ console.log(greet("Bob")); // Output: Hello, Bob!
  ```javascript
  const greetShort = name => `Hello, ${name}!`;
 console.log(greetShort("David")); // Output: Hello, David!
-```
+ ```
 - **Arrow Function Inheriting `this`:**
  ```javascript
  const person = {
