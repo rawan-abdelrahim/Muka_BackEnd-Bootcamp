@@ -51,11 +51,13 @@ console.log(greet("Bob")); // Output: Hello, Bob!
 
   console.log(greet("Charlie")); // Output: Hello, Charlie!
 ```
+
 - **Concise One-Liner Arrow Function:**
- ```javascript
- const greetShort = name => `Hello, ${name}!`;
-console.log(greetShort("David")); // Output: Hello, David!
- ```
+  ```javascript
+  const greetShort = name => `Hello, ${name}!`;
+  console.log(greetShort("David")); // Output: Hello, David!
+```
+
 - **Arrow Function Inheriting `this`:**
  ```javascript
  const person = {
