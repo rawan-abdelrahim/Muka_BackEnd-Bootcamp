@@ -8,35 +8,22 @@
     <link rel="stylesheet" href="app.css" />
   </hrad>
   <body>
-    <div class="add-book">
+    <div class="container">
       <h1>Book Collection Manager</h1>
-      <form id="book-form">
+      <form id="bookForm">
+        <input type="text" id="bookTitle" placeholder="Book Title" required />
+        <input type="text" id="authorName" placeholder="Author Name" required />
         <input
           type="text"
-          id="BookTitle"
-          required
-          placeholder="Book Title"
-        /><br />
-        <input
-          type="text"
-          id="AuthorName"
-          required
-          placeholder="Author Name"
-        /><br />
-        <input
-          type="text"
-          id="PublicationYear"
-          required
+          id="publicationYear"
           placeholder="Publication Year"
-        /><br />
-        <input type="text" id="Genre" required placeholder="Genre" /><br />
-        <button type="button" id="add-btn" onclick="addBook()">Add Book</button>
+          required
+        />
+        <input type="text" id="genre" placeholder="Genre" required />
+        <button type="button" id="addButton">Add Book</button>
       </form>
-      <div class="book-list">
-        <h2>Book List</h2>
-      </div>
+      <div class="book-list" id="bookList"></div>
     </div>
     <script src="script.js"></script>
   </body>
 </html>
-
