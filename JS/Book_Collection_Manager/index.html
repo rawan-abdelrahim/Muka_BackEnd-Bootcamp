@@ -1,0 +1,42 @@
+<!DOCTYPE >
+<html>
+  <hrad>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Book Collection Manager</title>
+    <link rel="stylesheet" href="app.css" />
+  </hrad>
+  <body>
+    <div class="add-book">
+      <h1>Book Collection Manager</h1>
+      <form id="book-form">
+        <input
+          type="text"
+          id="BookTitle"
+          required
+          placeholder="Book Title"
+        /><br />
+        <input
+          type="text"
+          id="AuthorName"
+          required
+          placeholder="Author Name"
+        /><br />
+        <input
+          type="text"
+          id="PublicationYear"
+          required
+          placeholder="Publication Year"
+        /><br />
+        <input type="text" id="Genre" required placeholder="Genre" /><br />
+        <button type="button" id="add-btn" onclick="addBook()">Add Book</button>
+      </form>
+      <div class="book-list">
+        <h2>Book List</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
