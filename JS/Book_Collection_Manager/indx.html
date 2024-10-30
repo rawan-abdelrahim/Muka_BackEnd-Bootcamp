@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection Manager</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="books">
+        <h1>Book Collection Manager</h1>
+
+        <form id="bookForm">
+            <input type="text" id="bookTitle" placeholder="Book Title" required>
+            <input type="text" id="authorName" placeholder="Author Name" required>
+            <input type="number" id="publicationYear" placeholder="Publication Year" required>
+            <input type="text" id="genre" placeholder="Genre" required>
+            <button type="button" id="addButton">Add Book</button>
+        </form>
+
+        <div id="sort">
+            <button id="sortTitle">Sort by Title</button>
+            <button id="sortYear">Sort by Year</button>
+            <select id="filterGenre">
+                <option value="All">All Genres</option>
+                <option value="Fiction">Fiction</option>
+                <option value="Non-Fiction">Non-Fiction</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Fantasy">Fantasy</option>
+            </select>
+        </div>
+
+        <div id="bookList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
