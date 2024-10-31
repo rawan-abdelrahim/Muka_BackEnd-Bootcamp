@@ -30,7 +30,7 @@ function printBook(filterBooks = books) {
     const editBtn = document.createElement('button');
     editBtn.classList.add('edit-button');
     editBtn.textContent = 'Edit';
-    editBtn.addEventListener('clik', () => editBook(idx));
+    editBtn.addEventListener('click', () => editBook(idx));
 
     const deleteBtn = document.createElement('button');
     deleteBtn.classList.add('delete-button');
@@ -54,7 +54,7 @@ function editBook(idx) {
   currentBookIndex = idx;
 
   const addButton = document.getElementById('addButton');
-  addBook.textContent = 'Update Book';
+  addButton.textContent = 'Update Book';
   addButton.removeEventListener('click', addButton);
   addButton.addEventListener('click', updateBook);
 }
