@@ -55,7 +55,7 @@ function editBook(idx) {
 
   const addButton = document.getElementById('addButton');
   addButton.textContent = 'Update Book';
-  addButton.removeEventListener('click', addButton);
+  addButton.removeEventListener('click', addBook);
   addButton.addEventListener('click', updateBook);
 }
 
